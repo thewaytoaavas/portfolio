@@ -1,0 +1,67 @@
+a {
+  text-decoration: none;
+}
+.top-nav {
+  min-height: 80vh;
+  background: linear-gradient(
+    223.92deg,
+    #3b5001 34.66%,
+    rgba(184, 245, 9, 0) 100.55%,
+    rgba(158, 205, 26, 0) 146.16%
+  );
+  text-align: right;
+  /* background: url(./assets/vivaan-trivedii-dq7jErOBJbo-unsplash.jpg) no-repeat */
+  /* center center; */
+  color: white;
+}
+
+.logo {
+}
+
+a.nav-link {
+  /* background: rgb(30, 240, 2); */
+  font-weight: bold;
+  color: greenyellow;
+  letter-spacing: 0.1em;
+}
+.nav-item a {
+  color: white !important;
+}
+a.nav-link:hover {
+  color: rgb(38, 0, 255) !important;
+  /* cursor: pointer; */
+}
+img {
+  border-radius: 200px;
+}
+.sec-title {
+  border-bottom: green solid 5px;
+  width: 200px;
+}
+.sec-content i {
+  font-size: 5rem;
+}
+.projects {
+  background: #e6fabb;
+}
+.contact-icons {
+  background: rgb(85, 104, 2);
+  min-height: 40px;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+}
+footer {
+  position: relative;
+}
+.up {
+  position: absolute;
+  right: 10pt;
+  bottom: -20px;
+  width: 50px;
+  height: 50px;
+  background: white;
+  color: black;
+}
